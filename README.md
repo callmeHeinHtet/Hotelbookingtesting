@@ -1,16 +1,22 @@
-# hotel_booking
+Hotel Booking App
+A Flutter-based hotel booking application that allows users to browse available rooms, select their preferred room, make payments, and check-in. The app integrates features such as profile management, room selection, and payment processing for a seamless user experience.
 
-A new Flutter project.
+Features
+User Registration/Login: Users can register and log in using Firebase Authentication.
 
-## Getting Started
+Room Selection: Users can view available rooms and select their preferred room.
 
-This project is a starting point for a Flutter application.
+Booking Confirmation: After selecting a room, users can confirm their booking and proceed with payment.
 
-A few resources to get you started if this is your first Flutter project:
+Profile Management: Users can view and edit their profiles.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Payment Integration: Users can enter their credit card details for payment processing.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Self Check-In: Users can check in to their booked room.
+
+Voucher System: Users can apply discount vouchers during booking.
+
+Technologies Used
+Flutter: A framework for building natively compiled applications for mobile.
+Firebase Authentication: For user authentication (sign up, login).
+Firebase Firestore/Realtime Database: For storing user and booking data.
